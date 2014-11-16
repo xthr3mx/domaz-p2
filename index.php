@@ -74,7 +74,7 @@
 						echo "<td>".$row['nombre']."</td>";
 						echo "<td>".$row['email']."</td>";
 						echo "<td>".$row['direccion']."</td>";
-						echo "<td>".$row['fecha']."</td>";
+						echo "<td>".$row['fecha_ingreso']."</td>";
 					echo "<tr>";
 				}
 				echo "</table>";
