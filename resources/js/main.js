@@ -5,7 +5,7 @@ var data = {};
 function getDataFromHTMLForm(){
 	data.nombre = $("#nombre").val();
 	data.email = $("#email").val();
-	data.comentario = $("#comentario").val();
+	data.direccion = $("#direccion").val();
 };
 
 function displayMessage(json){
@@ -21,7 +21,7 @@ function displayMessage(json){
 function clearInformationFromHTMLForm(){
 	$("#nombre").val("");
 	$("#email").val("");
-	$("#comentario").val("");
+	$("#direccion").val("");
 	$("#nombre").focus();
 };
 

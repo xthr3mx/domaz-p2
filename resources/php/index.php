@@ -21,7 +21,7 @@
 			$nombre = $_POST['nombre'];
 			$email = $_POST['email'];
 			$direccion = $_POST['direccion'];
-			$sql_command = "INSERT INTO persona (nombre,email,direccion) VALUES ('$nombre', '$email', '$direccion')";
+			$sql_command = "INSERT INTO persona(nombre,email,direccion) VALUES ('$nombre', '$email', '$direccion')";
 
 			if ($connection->query($sql_command)===false){
 				$data["error_status"] = true;
