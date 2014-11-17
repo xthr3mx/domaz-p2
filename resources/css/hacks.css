@@ -1,0 +1,16 @@
+.container form{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.container form button{
+	width: 100%;
+}
+
+/*
+ * dialogs
+*/
+
+#d-success, #d-error{
+	display: none;
+}
