@@ -92,6 +92,7 @@ function logicForDisplayPeople(){
 };
 
 function start(){
+	logicForDisplayPeople();
 	$("#contact-form").submit(function(event){
 		getDataFromHTMLForm();
 		sendDataToServer();
