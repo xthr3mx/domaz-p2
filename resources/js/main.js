@@ -77,6 +77,8 @@ function logicForDisplayPeople(){
 		data: {'name':'persona', 'id':null},
 		success: function(json_response, textStatus, jqXHR){
 			personas = JSON.parse(json_response);
+			console.log('information...');
+			console.log(json_response);
 			if(personas.length>=1){
 				showTable();
 				uploadInformation();
