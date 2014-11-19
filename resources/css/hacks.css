@@ -3,14 +3,34 @@
 	margin: 0 auto;
 }
 
+form#update-form{ width: 85%; margin: 0 auto; }
+
 .container form button{
 	width: 100%;
 }
 
 /*
  * dialogs
-*/
+ */
 
-#d-success, #d-error{
+#d-success, #d-error, #u-d-success, #u-d-error{
 	display: none;
 }
+
+/*
+ * table
+ */
+ #comments-container{
+ 	display: none;
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	margin-top: 5%;
+ }
+ #comments-container h3{text-align: center;padding-bottom: 2%;}
+
+ span.id{font-weight: bold;}
+ span.id:hover{text-decoration:underline;font-size: 1.4em;}
+
+
+ /* hide (block-u-id) */
+ .block-u-id{display: none;}
