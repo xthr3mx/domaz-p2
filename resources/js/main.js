@@ -34,6 +34,7 @@ function sendDataToServer(){
 			var json = JSON.parse(json_response);
 			displayMessage(json);
 			clearInformationFromHTMLForm();
+			logicForDisplayPeople();
 		},
 		error: function(jqXHR, textStatus, errorThrown){
 
