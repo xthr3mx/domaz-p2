@@ -47,6 +47,7 @@ function uploadInformation(){
 	// remove all child nodes 
 	$('#people-table tbody').empty();
 	for(var persona in personas){
+		console.log(personas[persona]);
 		$(
 			"<tr>"+
 			"<td><span class='glyphicon glyphicon-edit' aria-hidden='true'></span> <span class='id'>"+(personas[persona]).id+"</span></td>"+
